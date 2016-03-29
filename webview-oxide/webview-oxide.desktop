@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=webview-oxide
+Exec=webview-oxide
+Icon=webview-oxide/webview-oxide.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

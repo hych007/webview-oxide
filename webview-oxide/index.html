@@ -1,0 +1,13 @@
+<html>
+<head>
+<script>
+    document.addEventListener("QMLmessage", function (event) {
+        document.body.innerHTML += "<p><font size='20' color='red'>Message received.  You said " + event.detail.greeting + "</font></p>";
+    });
+</script>
+</head>
+
+<body>
+<h1>Hello</h1>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "name": "webview-oxide.liu-xiao-guo",
+    "description": "description of webview-oxide",
+    "architecture": "@CLICK_ARCH@",
+    "title": "webview-oxide",
+    "hooks": {
+        "webview-oxide": {
+            "apparmor": "webview-oxide/webview-oxide.apparmor",
+            "desktop":  "webview-oxide/webview-oxide.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
